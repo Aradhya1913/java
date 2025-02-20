@@ -55,12 +55,4 @@ Apply your skills with **real-world coding assignments** to solidify your unders
 
 ---
 
-## 💡 Why Join This Course?  
-✔️ Comprehensive **24-week roadmap**  
-✔️ **Live doubt-solving** sessions  
-✔️ Covers **Core Java to Advanced Topics**  
-✔️ Real-world **Hands-on Projects**  
-
----
-
 🚀 **Get ready to master Java and become a professional developer!**  
