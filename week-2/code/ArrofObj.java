@@ -43,7 +43,13 @@ public class ArrofObj {
             System.out.println(students[i].name+" "+students[i].rollno+" "+students[i].marks);
        }
 
-       
+       Gap.bar();
+
+       for(Student n: students)
+       {
+        System.out.println(n.name+" "+n.rollno+" "+n.marks);
+
+       }
 
     }
 }
