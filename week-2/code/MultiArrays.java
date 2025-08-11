@@ -37,7 +37,6 @@ public class MultiArrays {
         }
         System.out.println("  ");
     }
-        Gap.bar();
 // Enhanced for loop
         for(int n[]:arr) // itertates throw rows 
         {

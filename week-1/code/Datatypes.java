@@ -5,7 +5,7 @@
 
 public class Datatypes {
     public static void main(String args[]){
-    int num1 = 5;
+    int num1 = 5; 
     byte num2 = 10;
     short num4 =13;
     long num5 = 1000;

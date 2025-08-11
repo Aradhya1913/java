@@ -4,7 +4,6 @@ public class Dowhile {
         do
         {
             System.out.println("Hi");
-            Gap.bar();
             i++;
         }
         while(i<=4);

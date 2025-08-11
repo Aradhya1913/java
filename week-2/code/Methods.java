@@ -34,7 +34,6 @@ class Computer {
 public class Methods {
     public static void main(String[] args) {
         Computer comp = new Computer();
-        Gap.bar();
         comp.GetMeApen(10);
         comp.GetMeApen(20);
         comp.GetMeApen(50);

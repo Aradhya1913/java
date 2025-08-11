@@ -33,12 +33,10 @@ public class Inherit {
         
         myc.div();
         myc.mul();
-       
         myc.a = 10;
         System.out.println("Updated value of a: " + myc.a);
         myc.b = 20;
         System.out.println("Updated value of b: " + myc.b);
 
-     
     }
 }
