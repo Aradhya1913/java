@@ -1,5 +1,18 @@
+import java.util.Scanner;
+
 class Car {
-    private int current_gear = 0; // remember last gear across calls
+    
+    int wheels=4;
+    int doors=4;
+    String color="White";
+    String brand="suzuki";
+    float speed = 145.6f;
+
+    
+    
+    private int current_gear = 0; // remember last gear
+
+
 
     public String PlayMusic() {
         return "Playing La La Land Music";
@@ -9,7 +22,7 @@ class Car {
         // Invalid gear check
         if (g > 6 || g < -1) {
             System.out.println("Enter a valid gear from -1 to 6");
-            return; // stop execution here
+            return;
         }
 
         // Gear shifting logic
@@ -59,12 +72,28 @@ class Car {
 
 public class Vehicle {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         Car c = new Car();
-        c.Gearshift(1);
-        c.Gearshift(3);
-        c.Gearshift(-1);
-        c.Gearshift(7); // Invalid gear
-        
+
+        while (true) {
+            System.out.print("Enter gear (-1 to 6) or type 999 to stop: ");
+            int gear = sc.nextInt();
+
+            if (gear == 999) { // exit condition
+                break;
+            }
+
+            c.Gearshift(gear);
+        }
+
         System.out.println(c.PlayMusic());
+        System.out.println(c.brand);
+        System.out.println(c.color);
+        System.out.println("No of wheels="+c.wheels);
+        System.out.println("Top Speed="+c.speed);
+
+
+
+        sc.close();
     }
 }
