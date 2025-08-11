@@ -18,7 +18,11 @@ public class Datatypes {
     char c='A'; // should be in single quotes and a sinngle Character
     char k= '7'; // Char can also store numericals 
     String d="Hello There";
-   
+
+
+    // 'System' is a Java class, 'out' is its static PrintStream object, and 
+    //'println()' is the method that prints a message followed by a newline.
+
     System.out.println(d);
     System.out.println(c);
     System.out.println(num4);
@@ -29,5 +33,5 @@ public class Datatypes {
     System.out.println(numi);
 
     }
-    
+
 }
