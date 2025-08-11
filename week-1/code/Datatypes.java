@@ -1,3 +1,7 @@
+// psvm stands for public static void main. It is the main method signature in Java, not a class.
+// main is the method name, and public static void are its modifiers and return type. 
+//psvm is just an IDE shortcut developers use to generate this method quickly.
+
 
 public class Datatypes {
     public static void main(String args[]){
