@@ -92,7 +92,7 @@ public class Vehicle {
         System.out.println("No of wheels="+c.wheels);
         System.out.println("Top Speed="+c.speed);
 
-
+        
 
         sc.close();
     }
