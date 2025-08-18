@@ -1,5 +1,5 @@
 class Bank {
-     double balance;
+     private double balance;
      static int count=0;
      String name;
      int id=1999001000;
@@ -22,6 +22,16 @@ class Bank {
         }
     }
 
+    // Setter for balance
+    public void setBalance(double balance) {
+        if (balance >= 0) {
+            this.balance = balance;
+        } else {
+            System.out.println("Balance cannot be negative!");
+        }
+    }
+
+    
     // Withdraw method
     public void withdraw(double amount) {
         if (amount > 0 && amount <= balance) {
@@ -52,7 +62,8 @@ class Bank {
         account1.displayBalance();
         account2.displayBalance();
         account3.displayBalance();
-        
+        account3.setBalance(10);
+
         System.out.println("Number of Account Holders :=  "+count); 
 
         Gap.bar();
