@@ -13,14 +13,6 @@ public class IO {
         System.out.println("Enter you Percentage");
         double per = sc.nextInt();
         System.out.println("|" + name + "|" + age + "|" + per);
-
-        
-
-
-
-
-
-
-        
+  
     }
 }
