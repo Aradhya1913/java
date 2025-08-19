@@ -44,7 +44,7 @@ class Bank {
 
     // Display balance
     public void displayBalance() {
-        System.out.println("Account holder Name:"+name+" Account id:" +id+ " Current Balance: "+ balance);
+        System.out.println("Account holder Name:"+name+" || Account id:" +id+ " || Current Balance: "+ balance);
     }
     public static void main(String[] args) {
         
