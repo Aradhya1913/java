@@ -11,7 +11,6 @@ public class String1 {
         System.out.println("Original: " + str);
         System.out.println("Cleaned : " + cleaned);
 
-
     }
     
     

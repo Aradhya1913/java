@@ -12,5 +12,7 @@ public class String2 {
             else lower.append(ch);
         }
         System.out.println(upper.toString() + lower.toString()); 
+
+        
     }
 }
