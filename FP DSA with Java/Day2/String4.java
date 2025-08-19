@@ -8,7 +8,7 @@ public class String4 {
         
         for (char ch : str.toCharArray()) {
             if (Character.isLowerCase(ch)) upper.append(Character.toUpperCase(ch)); // Character.toUpperCase /  --->convert to uppercase 
-                                                                                    // Character.isLowerCase / isUppercase ---> check the case
+                                                                                    // Character.isLowerCase ,/ isUppercase ---> check the case
             else upper.append(ch);
         }
         System.out.println(upper); // HELLOWORLD123
